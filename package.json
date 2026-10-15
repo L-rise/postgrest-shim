@@ -1,0 +1,20 @@
+{
+  "name": "postgrest-shim",
+  "version": "1.0.0",
+  "description": "轻量级前端 PostgREST 兼容数据层：链式查询语法 → 自定义后端 HTTP 请求，返回 { data, error } 统一形状。切换后端时业务代码零改动。",
+  "main": "src/index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "require": "./src/index.cjs"
+    }
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "test": "node test/"
+  },
+  "keywords": ["postgrest", "supabase", "query-builder", "fetch", "database", "shim", "isomorphic"],
+  "license": "MIT",
+  "author": ""
+}
