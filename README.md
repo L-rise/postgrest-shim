@@ -2,11 +2,10 @@
 
 > 轻量级前端 PostgREST 兼容数据层
  <https://content-publish-site.app.workbuddy.host/>
-  <https://shu-svcgd1rq9xm.qoder.zone/>
 ## 核心价值
 
 链式查询语法 → 自定义后端 HTTP 请求，返回 `{ data, error }` 统一形状。切换后端时业务代码零改动。
-
+  <https://shu-svcgd1rq9xm.qoder.zone/>
 ## 安装
 
 ```bash
